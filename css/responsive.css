@@ -359,7 +359,7 @@
     .product-news ul li,.rtl .product-news ul li {
         margin: 0;
         padding: 0 100px;
-        width: 100%;
+        width: 50%;
         margin-bottom: 30px;
     }
 
@@ -412,7 +412,7 @@
     }
 
     .product-tabs li {
-        width: 100%;
+        width: 50%;
     }
 
     .data-table thead th {
