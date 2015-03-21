@@ -17,7 +17,8 @@
 	margin-left: -50px;
 }
 /*特色推荐*/
-.home-fea-title1{	
+.home-fea-title1{
+    font-family: Microsoft YaHei;	
 	color: #fff;
 	padding-top: 5px;
 	margin-top: 10px;
@@ -28,7 +29,8 @@
 	background: #e67a92;
 	font-size: 20px;
 }
-.home-fea-title2{	
+.home-fea-title2{
+    font-family: Microsoft YaHei;		
 	color: #fff;
 	padding-top: 5px;
 	margin-top: 10px;
@@ -39,7 +41,8 @@
 	background: #6fc7bc;
 	font-size: 20px;
 }
-.home-fea-title3{	
+.home-fea-title3{
+    font-family: Microsoft YaHei;		
 	color: #fff;
 	padding-top: 5px;
 	margin-top: 10px;
@@ -50,7 +53,8 @@
 	background: #cdd140;
 	font-size: 20px;
 }
-.home-fea-title4{	
+.home-fea-title4{
+    font-family: Microsoft YaHei;		
 	color: #fff;
 	padding-top: 5px;
 	margin-top: 10px;
@@ -65,15 +69,17 @@
 	border: none !important;
 }
 .home-fea-border{
-	border: 4px solid #e9e9e9;
+	border: 2px solid #e9e9e9;
 }
 .home-fea-detail{
 	font-size: 12px !important;
 	text-align: left !important;
 }
 .home-fea-img{
-	padding-left:10px;
-	padding-right: 10px; 
+	  width: 266px;
+	  height: 260px;
+	  padding-left: 10px;
+	  padding-right: 10px;
 }
 .home-fea-h3{
 	padding-left: 12px;
@@ -82,7 +88,7 @@
 	padding-right: 12px;
 }
 .home-reg{
-	font-family: 幼圆;
+	font-family: youyuan;
     color: #666666 !important;
 	font-size: 16px !important;
 	text-align: center;
@@ -115,3 +121,58 @@
 	color: #666;
 	font-family: 微软雅黑;
 }
+
+/*轮播图*/
+.carousel-control.right {
+  margin-top: 36%;
+  color: #ed66a3 !important;
+  right: 0;
+  left: auto;
+  background-image: -webkit-gradient(linear,0 top,100% top,from(rgba(0,0,0,0.0001)),to(rgba(0,0,0,0.5)));
+  background-image: -webkit-linear-gradient(left,color-stop(rgba(0,0,0,0.0001) 0),color-stop(rgba(0,0,0,0.5) 100%));
+  background-image: -moz-linear-gradient(left,rgba(0,0,0,0.0001) 0,rgba(0,0,0,0.5) 100%);
+  background-image: linear-gradient(to right,rgba(0,0,0,0.0001) 0,rgba(0,0,0,0) 100%) !important;
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000',endColorstr='#80000000',GradientType=1);
+ }
+ .carousel-control.left {
+  margin-top: 36%;
+  color: #ed66a3 !important;
+  background-image: -webkit-gradient(linear,0 top,100% top,from(rgba(0,0,0,0.5)),to(rgba(0,0,0,0.0001)));
+  background-image: -webkit-linear-gradient(left,color-stop(rgba(0,0,0,0) 0),color-stop(rgba(0,0,0,0.0001) 100%));
+  background-image: -moz-linear-gradient(left,rgba(0,0,0,0) 0,rgba(0,0,0,0.0001) 100%);
+  background-image: linear-gradient(to right,rgba(0,0,0,0) 0,rgba(0,0,0,0) 100%) !important;
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000',endColorstr='#00000000',GradientType=1);
+}
+/*二维码*/
+      .side-bar .icon-chat {
+                            background-position: 0 -130px;
+                            position: relative;
+                        }
+                        .side-bar .icon-chat:hover .chat-tips {
+                            display: block;
+                        }
+                        .chat-tips {
+                            z-index:1000;
+                            padding: 20px;
+                            border: 1px solid #d1d2d6;
+                            position: absolute;
+                            right: 78px;
+                            top: -55px;
+                            background-color: #ffffff;
+                            display: none;
+                        }
+                        .chat-tips i {
+                            width: 9px;
+                            height: 16px;
+                            display: inline-block;
+                            position: absolute;
+                            right: -9px;
+                            top: 80px;
+                            background-position:-88px -350px;
+                        }
+                        .chat-tips img {
+                            width: 138px;
+                            height: 138px;
+                        }
